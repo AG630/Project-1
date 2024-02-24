@@ -10,3 +10,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.sec-2{
+    background-color: #5d576b;
+    font-family: raleway;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    min-height: 400px;
+    padding: 50px;
+}
