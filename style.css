@@ -26,3 +26,8 @@
     margin-right: auto;
     padding: 100px;
 }
+
+td{
+    padding: 15%;
+    align-items: center;
+}
