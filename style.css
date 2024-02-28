@@ -110,9 +110,16 @@ td{
 .sec-4-header{
     font-family: Raleway;
     text-align: center;
+    font-size: 35px;
+    padding: 10%;
 }
 
 .sec-4{
     font-family: Raleway;
     text-align: center;
+}
+
+.faq{
+    font-family: Raleway;
+    
 }
