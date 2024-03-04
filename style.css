@@ -160,7 +160,7 @@ td{
 }
 
 .line {
-  width: 100%;
+  width: 80%;
   border-bottom: 1px solid black; /* Visual line */
   margin-top: 10px; /* Adjust spacing between list and line */
 }
