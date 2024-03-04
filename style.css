@@ -142,8 +142,8 @@ td{
 
 .footer{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Arrange items in a column */
   width: 100%;
   font-family: Raleway;
   background-color: white;
