@@ -117,9 +117,31 @@ td{
 .sec-4{
     font-family: Raleway;
     text-align: center;
+    background-color: #d9e5c7;
 }
 
-.faq{
-    font-family: Raleway;
-    
+.faq-1{
+  font-size: large;
+
+}
+
+.faq-2{
+  font-size: large;
+  
+}
+
+.faq-3{
+  font-size: large;
+  
+}
+
+.faq-4{
+  font-size: large;
+  
+}
+
+.contact-footer{
+  font-family: Raleway;
+  font-size: large;
+  
 }
