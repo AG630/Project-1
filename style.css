@@ -107,22 +107,39 @@ td{
   }
 }
 
-.sec-4-header{
+.sec-4{
     font-family: Raleway;
     text-align: center;
     font-size: 35px;
     padding: 10%;
 }
 
-.sec-4{
+.sec-4 h2{
+
+}
+
+.sec-4 h3{
+  font-family: Raleway;
+  text-align: center;
+  font-size: 30px;
+  padding: 5%;"
+}
+
+.sec-5{
     font-family: Raleway;
     text-align: center;
     background-color: #d9e5c7;
     height: 30vh;
-
+    padding-top: 2%;
 }
 
-.sec-4 p {
+.sec-5 h1{
+  font-family: Raleway; 
+  text-align: Center;
+  font-size: 35px;"
+}
+
+.sec-5 p {
   font-size: large;
   padding: 2%;
 }
@@ -140,6 +157,7 @@ td{
 .footer h1 {
   margin: 0; /* Remove default margin */
   padding-bottom: 3%;
+  padding-top: 5%;
 }
 
 .footer ul li {
