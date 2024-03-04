@@ -110,7 +110,7 @@ td{
 
 .sec-4{
  text-align: center;
- height: 40vh;
+ min-height: 40vh;
 }
 
 
@@ -126,6 +126,7 @@ td{
     background-color: #d9e5c7;
     height: 30vh;
     padding-top: 2%;
+    min-height: 45vh;
 }
 
 .sec-5 h1{
