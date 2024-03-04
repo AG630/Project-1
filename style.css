@@ -141,9 +141,15 @@ td{
 }
 
 .footer{
-  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   font-family: Raleway;
   background-color: white;
+  height: auto;
+}
 
+.footer h1 {
+  margin: 0; /* Remove default margin */
 }
