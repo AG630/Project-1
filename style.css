@@ -153,3 +153,7 @@ td{
 .footer h1 {
   margin: 0; /* Remove default margin */
 }
+
+.footer ul li {
+  margin-right: 20px; /* Adjust spacing between list items */
+}
