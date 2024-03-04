@@ -107,22 +107,17 @@ td{
   }
 }
 
+
 .sec-4{
-    font-family: Raleway;
-    text-align: center;
-    font-size: 35px;
-    padding: 10%;
+ text-align: center;
+ height: 40vh;
 }
 
-.sec-4 h2{
 
-}
-
-.sec-4 h3{
+.sec-4 h2, h3{
   font-family: Raleway;
   text-align: center;
-  font-size: 30px;
-  padding: 5%;"
+  padding-top: 10%;
 }
 
 .sec-5{
