@@ -140,16 +140,10 @@ td{
   
 }
 
-.contact-footer{
+.footer{
+  display: inline;
+  width: 100%;
   font-family: Raleway;
-  text-align: center;
-  
-}
+  background-color: white;
 
-.footer-button.1{
-  display:inline-block;
-}
-
-.footer-button.2{
-  display:inline-block;
 }
