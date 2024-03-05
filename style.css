@@ -111,6 +111,7 @@ td{
 .sec-4{
  text-align: center;
  min-height: 40vh;
+ height: auto;
 }
 
 
@@ -118,7 +119,7 @@ td{
   font-family: Raleway;
   text-align: center;
   padding-top: 10%;
-}
+ }
 
 .sec-5{
     font-family: Raleway;
@@ -127,6 +128,7 @@ td{
     height: 30vh;
     padding-top: 2%;
     min-height: 45vh;
+    height: auto;
 }
 
 .sec-5 h1{
