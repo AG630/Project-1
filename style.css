@@ -31,9 +31,9 @@
 
 .sec-2 td{
     padding: 15%;
-    align-items: center;
     background-color: #595959;
     border: solid white 1px;
+    text-align: left;
 }
 
 
