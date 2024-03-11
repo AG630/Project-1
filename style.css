@@ -1,7 +1,7 @@
 .sec-1{
     background-color: white;
     text-align: center;
-    padding: 250px;
+    padding: 200px;
     font-family: Raleway;
     font-size: 36px;
     background-attachment: fixed;
@@ -21,18 +21,21 @@
     padding: 50px;
 }
 
-.links{
+.sec-2 table{
     margin-left: auto;
     margin-right: auto;
     padding: 100px;
+    border-spacing: 35px;
+    border-collapse: separate;
 }
 
-td{
+.sec-2 td{
     padding: 15%;
     align-items: center;
     background-color: #595959;
     border: solid white 1px;
 }
+
 
 /* Styling the timeline */
 
