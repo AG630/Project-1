@@ -2,7 +2,7 @@
     background-color: white;
     text-align: center;
     padding: 200px;
-    
+
     font-family: Raleway;
     font-size: 36px;
     background-attachment: fixed;
@@ -31,10 +31,11 @@
 }
 
 .sec-2 td{
-    padding: 15%;
+    padding: 35px;
     background-color: #595959;
     border: solid white 1px;
-    text-align: left;
+    text-align: center;
+    width: auto;
 }
 
 
