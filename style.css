@@ -1,0 +1,176 @@
+.sec-1{
+    background-color: white;
+    text-align: center;
+    padding: 200px;
+    font-family: Raleway;
+    font-size: 36px;
+    background-attachment: fixed;
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-2{
+    background-color: #5d576b;
+    font-family: raleway;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    min-height: 400px;
+    padding: 50px;
+}
+
+.sec-2 table{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    border-spacing: 35px;
+    border-collapse: separate;
+}
+
+.sec-2 td{
+    padding: 15%;
+    background-color: #595959;
+    border: solid white 1px;
+    text-align: left;
+}
+
+
+/* Styling the timeline */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  padding: 100px 0;
+  font-family: Jost;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #E14747;
+  border-radius: 5px;
+  color: white;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-divider{
+    position: relative;
+    background-image: linear-gradient(45deg, #595959, #5d576b, #879392);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #595959, #5d576b, #879392);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+
+.sec-4{
+ text-align: center;
+ min-height: 40vh;
+ height: auto;
+}
+
+
+.sec-4 h2, h3{
+  font-family: Raleway;
+  text-align: center;
+  padding-top: 10%;
+ }
+
+ .sec-4 h3{
+  padding-bottom: 10%;
+ }
+
+.sec-5{
+    font-family: Raleway;
+    text-align: center;
+    background-color: #d9e5c7;
+    height: 30vh;
+    padding-top: 2%;
+    min-height: 45vh;
+    height: auto;
+}
+
+.sec-5 h1{
+  font-family: Raleway; 
+  text-align: Center;
+  font-size: 35px;"
+}
+
+.sec-5 p {
+  font-size: large;
+  padding: 2%;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Arrange items in a column */
+  width: 100%;
+  font-family: Raleway;
+  background-color: white;
+  height: auto;
+}
+
+.footer h1 {
+  margin: 0; /* Remove default margin */
+  padding-bottom: 3%;
+  padding-top: 5%;
+}
+
+.footer ul li {
+  margin-right: 20px; /* Adjust spacing between list items */
+}
+
+.line {
+  width: 80%;
+  border-bottom: 1px solid black; /* Visual line */
+  margin-top: 10px; /* Adjust spacing between list and line */
+}
