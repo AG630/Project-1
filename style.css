@@ -12,6 +12,24 @@
     background-size: cover;
 }
 
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slideshow img.active {
+  opacity: 1;
+}
+
 .sec-2{
     background-color: #5d576b;
     font-family: raleway;
