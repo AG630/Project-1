@@ -1,37 +1,37 @@
-.sec-1{
-    background-color: white;
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    font-family: Raleway;
-    font-size: 36px;
-    background-attachment: fixed;
-    min-height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.sec-1 {
+  background-color: white;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-family: Raleway;
+  font-size: 36px;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .slideshow {
-  position: relative;
   width: 100%;
-  height: 75px; /* Set the height to 75px */
-  margin-top: 20px; /* Adjust margin as needed */
+  text-align: center; /* Center the images horizontally */
+  margin-top: 30px;
 }
 
 .slideshow img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px; /* Set the width to 50px */
-  height: 75px; /* Set the height to 75px */
+  width: 150px;
+  height: 175px;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+  display: inline-block;
 }
 
 .slideshow img.active {
   opacity: 1;
 }
+
+
 
 .sec-2{
     background-color: #5d576b;
