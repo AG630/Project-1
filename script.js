@@ -4,15 +4,20 @@ $(document).ready(function() {
 
     function showImage(index) {
         images.removeClass('active');
-        images.eq(index).addClass('active');
+        images.eq(index).addClass('active').fadeIn();
     }
 
     function nextImage() {
-        currentIndex = (currentIndex + 1) % images.length;
+        var randomIndex = Math.floor(Math.random() * images.length);
+        while (randomIndex === currentIndex) {
+            randomIndex = Math.floor(Math.random() * images.length);
+        }
+        currentIndex = randomIndex;
         showImage(currentIndex);
     }
 
-    // Show the first image initially
+    // Show a random image initially
+    currentIndex = Math.floor(Math.random() * images.length);
     showImage(currentIndex);
 
     // Set interval to switch images every 3 seconds
