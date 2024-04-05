@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     var images = $('.slideshow img');
     var currentIndex = 0;
 
