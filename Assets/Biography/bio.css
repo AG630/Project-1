@@ -1,18 +1,22 @@
 .container-1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-  }
-
-  .image-1 {
-    flex: 1;
-    max-width: 40%; /* Adjust this value as needed */
-    margin: 5em;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.Header {
+  display: inline-block;
+  margin-right: 60px;
+  padding-left: 5%;
+}
+.image-1 {
+  flex: 1;
+  max-width: 40%;
+  /* Adjust this value as needed */
+  margin: 5em;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
