@@ -1,22 +1,56 @@
-.container-1 {
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #E14747;
+  z-index: 1000;
 }
-.Header {
-  display: inline-block;
-  margin-right: 60px;
-  padding-left: 5%;
+
+.navbar nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-.image-1 {
-  flex: 1;
+
+.navbar nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+/* Contact link */
+.contact {
+  padding: 15px;
+}
+
+/* Image container */
+.image {
   max-width: 40%;
-  /* Adjust this value as needed */
   margin: 5em;
 }
-img {
+
+/* Image styles */
+.image img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+/* Biography section styles */
+.biography {
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
 }
