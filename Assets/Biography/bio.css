@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  max-width: max-content;
 }
 
 .Header {
@@ -12,16 +13,17 @@
 }
 
 .image-1 img {
-  min-width: 40%;
-  max-width: 40%;
-  padding-top: 4em;
-  margin-right: 5em;
+ max-width: 50%;
 }
 
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .image-1 img {
+    width: 60%; /* Adjust width for smaller screens */
+  }
+}
 p {
   font-family: raleway;
-  float: right;
-  margin-top: 10em;
-  margin-left: 10rem;
-  display: flex;
+  font-size: small;
+  margin-top: 10em; /* Adjust margin as needed */
 }
