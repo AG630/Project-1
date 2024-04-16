@@ -4,19 +4,24 @@
   justify-content: space-between;
   padding: 20px;
 }
+
 .Header {
   display: inline-block;
   margin-right: 60px;
   padding-left: 5%;
 }
-.image-1 {
-  flex: 1;
+
+.image-1 img {
+  min-width: 40%;
   max-width: 40%;
-  /* Adjust this value as needed */
-  margin: 5em;
+  padding-top: 4em;
+  margin-right: 5em;
 }
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+
+p {
+  font-family: raleway;
+  float: right;
+  margin-top: 10em;
+  margin-left: 10rem;
+  display: flex;
 }
