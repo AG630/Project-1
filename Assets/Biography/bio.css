@@ -13,7 +13,7 @@
 }
 
 .image-1 img {
- max-width: 50%;
+padding-top: 15%;
 }
 
 /* Media query for smaller screens */
@@ -26,4 +26,5 @@ p {
   font-family: raleway;
   font-size: small;
   margin-top: 10em; /* Adjust margin as needed */
+  padding: 5%;
 }
