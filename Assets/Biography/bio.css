@@ -28,3 +28,35 @@ p {
   margin-top: 10em; /* Adjust margin as needed */
   padding: 5%;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  /* Arrange items in a column */
+  align-items: center;
+  /* Arrange items in a column */
+  width: 100%;
+  font-family: Raleway;
+  background-color: #d9e5c7;
+  height: auto;
+}
+
+.footer h1 {
+  margin: 0;
+  /* Remove default margin */
+  padding-bottom: 3%;
+  padding-top: 5%;
+}
+
+.footer ul li {
+  margin-right: 20px;
+  /* Adjust spacing between list items */
+}
+
+.line {
+  width: 80%;
+  border-bottom: 1px solid black;
+  /* Visual line */
+  margin-top: 10px;
+  /* Adjust spacing between list and line */
+}
