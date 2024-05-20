@@ -37,7 +37,7 @@ p {
   /* Arrange items in a column */
   width: 100%;
   font-family: Raleway;
-  background-color: #d9e5c7;
+  background-color: white;
   height: auto;
 }
 
@@ -57,6 +57,4 @@ p {
   width: 80%;
   border-bottom: 1px solid black;
   /* Visual line */
-  margin-top: 10px;
-  /* Adjust spacing between list and line */
 }
