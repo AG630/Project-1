@@ -11,6 +11,7 @@
   font-size: 25px;
   background-color: white;
   padding-bottom: 10em;
+  min-height: 350px;
 }
 
 .sec-2 {
@@ -35,7 +36,7 @@
 /* Apply hover animation only within .sec-2 */
 .sec-2:hover .overlay {
   height: 100%;
-  
+  animation-fill-mode: forwards;
 }
 
 .text {
@@ -46,11 +47,19 @@
   padding-bottom: 5em;
   position: relative;
   overflow: hidden;
-  top: 50%;
+  top:30%;
 }
 
-.sec-3 {
-  padding-top: 3em; /* Adjust padding-top as needed */
+.sec-3 { 
   background-color: white;
-
+  min-height: 500px;  
 }
+
+.sec-3 p{
+  padding-top: 10em;
+  background-color: white;
+  font-family: raleway;
+  font-size: large;
+  text-align: left;
+}
+
