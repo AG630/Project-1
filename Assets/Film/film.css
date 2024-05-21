@@ -11,7 +11,7 @@
   font-size: 25px;
   background-color: white;
   padding-bottom: 10em;
-  min-height: 350px;
+  min-height: 300px;
 }
 
 .sec-2 {
@@ -51,15 +51,14 @@
 }
 
 .sec-3 { 
-  background-color: white;
-  min-height: 500px;  
+  background-color: #E14747;
+  min-height: 600px;  
 }
 
 .sec-3 p{
   padding-top: 10em;
-  background-color: white;
   font-family: raleway;
-  font-size: large;
+  font-size: 25px;
   text-align: left;
 }
 
