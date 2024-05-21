@@ -10,4 +10,15 @@
     padding-top: 10em;
     font-size: 25px;
     background-color: white;
+    padding-bottom: 10em;
+}
+
+.sec-2{
+  font-family: raleway;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  background-color: #5d576b;
+  padding-top: 10em;
+  padding-bottom: 10em;
 }
