@@ -1,34 +1,29 @@
 .Header {
-    display: inline-block;
-    margin-right: 20px;
-    padding-left: 5%;
-  }
-
-.sec-1{
-    font-family: raleway;
-    text-align: center;
-    padding-top: 10em;
-    font-size: 25px;
-    background-color: white;
-    padding-bottom: 10em;
+  display: inline-block;
+  margin-right: 20px;
+  padding-left: 5%;
 }
 
-.sec-2{
+.sec-1 {
+  font-family: raleway;
+  text-align: center;
+  padding-top: 10em;
+  font-size: 25px;
+  background-color: white;
+  padding-bottom: 10em;
+}
+
+.sec-2 {
   position: relative;
-  width:100%;
-  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/4-arnold-schwarzenegger-artwork-taoteching-c4dart.jpg);
-}
-
-.image{
-  display: block;
   width: 100%;
-  height: auto;
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/4-arnold-schwarzenegger-artwork-taoteching-c4dart.jpg);
+  min-height: 500px; /* Adjust the minimum height as needed */
 }
 
-.overlay{
+.overlay {
   position: absolute;
   bottom: 0;
-  left:0;
+  left: 0;
   right: 0;
   background-color: #5d576b;
   overflow: hidden;
@@ -37,16 +32,25 @@
   transition: .5s ease;
 }
 
-.sec-2:hover .overlay{
+/* Apply hover animation only within .sec-2 */
+.sec-2:hover .overlay {
   height: 100%;
+  
 }
 
-.text{
+.text {
   color: white;
-  font-family: ;
-  font-size: 20px;
-  position: absolute;
+  font-family: raleway;
+  font-size: 25px;
+  padding-left: 2em; /* Adjust padding as needed */
+  padding-bottom: 5em;
+  position: relative;
   overflow: hidden;
   top: 50%;
- 
+}
+
+.sec-3 {
+  padding-top: 3em; /* Adjust padding-top as needed */
+  background-color: white;
+
 }
