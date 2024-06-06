@@ -1,22 +1,3 @@
-.Header {
-    display: inline-block;
-    margin-right: 20px;
-    padding-left: 5%;
-}
-
-.sec-1 {
-    min-height: 7em;
-    font-family: raleway;
-    text-align: center;
-    font-size: 26px;
-    background-color: #d9e5c7;
-}
-.ml3{
-    padding-top: 7em;
-    padding-bottom: 3em;
-
-}
-
 .footer {
     display: flex;
     flex-direction: column;
@@ -27,24 +8,24 @@
     font-family: Raleway;
     background-color: white;
     height: auto;
-}
-
-.footer h1 {
+  }
+  
+  .footer h1 {
     margin: 0;
     /* Remove default margin */
     padding-bottom: 3%;
     padding-top: 5%;
-}
-
-.footer ul li {
+  }
+  
+  .footer ul li {
     margin-right: 20px;
     /* Adjust spacing between list items */
-}
-
-.line {
+  }
+  
+  .line {
     width: 80%;
     border-bottom: 1px solid black;
     /* Visual line */
     margin-top: 10px;
     /* Adjust spacing between list and line */
-}
+  }
