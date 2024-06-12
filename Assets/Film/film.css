@@ -5,7 +5,7 @@
 }
 
 .sec-1 {
-    min-height: 7em;
+    min-height: 25em;
     font-family: raleway;
     text-align: center;
     font-size: 26px;
@@ -14,7 +14,18 @@
 .ml3{
     padding-top: 7em;
     padding-bottom: 3em;
+}
 
+.sec-2{
+    min-height: 25em;
+    font-family: raleway;
+    text-align: center;
+    font-size: 20px;
+    background-color: #595959;
+}
+.sec-2 p{
+    padding-top: 12.5em;
+    color: white;
 }
 
 .footer {
