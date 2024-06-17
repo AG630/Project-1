@@ -16,15 +16,11 @@
 padding-top: 15%;
 }
 .sec-1{
-
   min-height: 400px; 
   text-align: center;
-}
-
-.sec1 h2{
+  padding-top: 400px;
   font-family: raleway;
-  color: black;
- 
+  font-size: 26px;
 }
 
 .sec-2{
