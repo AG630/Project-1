@@ -15,6 +15,29 @@
 .image-1 img {
 padding-top: 15%;
 }
+.sec-1{
+
+  min-height: 400px; 
+  text-align: center;
+}
+
+.sec1 h2{
+  font-family: raleway;
+  color: black;
+ 
+}
+
+.sec-2{
+  background-color: #879392;
+
+}
+.sec-2 div p{
+  color: white;
+  font-family: Raleway;
+  min-height: 400px;
+  text-align: Left;
+  font-size: 20px ;
+}
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
