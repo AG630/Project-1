@@ -12,9 +12,25 @@
   padding-left: 5%;
 }
 
-.image-1 img {
-padding-top: 15%;
+.slideshow {
+  width: 100%;
+  text-align: center;
+  /* Center the images horizontally */
+  margin-top: 30px;
 }
+
+.slideshow img {
+  width: 150px;
+  height: 175px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  display: inline-block;
+}
+
+.slideshow img.active {
+  opacity: 1;
+}
+
 .sec-1{
   min-height: 400px; 
   text-align: center;
