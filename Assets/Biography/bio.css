@@ -1,10 +1,4 @@
-.container-1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  max-width: max-content;
-}
+
 
 .Header {
   display: inline-block;
@@ -22,8 +16,8 @@
 }
 
 .slideshow img {
-  width: 275px;
-  height: 300px;
+  width: 175px;
+  height: 200px;
   opacity: 0;
   transition: opacity 1s ease-in-out;
   display: inline-block;
@@ -46,14 +40,19 @@
 
 .sec-2{
   background-color: #879392;
-
+  min-height: 400px;
 }
 .sec-2 div p{
   color: white;
   font-family: Raleway;
-  min-height: 400px;
   text-align: Left;
   font-size: 20px ;
+  
+}
+
+.sec-3{
+  background-color: #E14747;
+  min-height: 400px;
 }
 
 /* Media query for smaller screens */
