@@ -17,11 +17,13 @@
   text-align: center;
   /* Center the images horizontally */
   margin-top: 30px;
+  margin: 0 auto; /* Center horizontally */
+  padding-top: 10%;
 }
 
 .slideshow img {
-  width: 150px;
-  height: 175px;
+  width: 275px;
+  height: 300px;
   opacity: 0;
   transition: opacity 1s ease-in-out;
   display: inline-block;
@@ -37,6 +39,9 @@
   padding-top: 400px;
   font-family: raleway;
   font-size: 26px;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
 }
 
 .sec-2{
