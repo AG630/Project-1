@@ -28,7 +28,7 @@
 }
 
 .sec-1{
-  min-height: 400px; 
+  min-height: 600px; 
   text-align: center;
   padding-top: 400px;
   font-family: raleway;
@@ -40,7 +40,7 @@
 
 .sec-2{
   background-color: #879392;
-  min-height: 400px;
+  min-height: 600px;
 }
 .sec-2 div p{
   color: white;
@@ -52,7 +52,7 @@
 
 .sec-3{
   background-color: #E14747;
-  min-height: 400px;
+  min-height: 600px;
 }
 
 /* Media query for smaller screens */
