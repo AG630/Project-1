@@ -13,7 +13,7 @@
     padding-top: 200px;
 }
 
-.sec-2{
+.sec-2 {
     min-height: 600px;
     font-family: raleway;
     text-align: center;
@@ -21,13 +21,51 @@
     background-color: #5d576b;
 }
 
-.sec-2 div p{
+.sec-2 div p {
     padding-top: 10em;
     color: white;
     font-family: raleway;
+}
+
+.sec-3 {
+    min-height: 400px;
 
 }
 
+.slideshow {
+    width: 100%;
+    text-align: center;
+    /* Center the images horizontally */
+    margin-top: 30px;
+    margin: 0 auto;
+    /* Center horizontally */
+
+}
+
+.slideshow img {
+    width: 325px;
+    height: 300px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+.slideshow img.active {
+    opacity: 1;
+}
+
+.sec-4 {
+    min-height: 400px;
+    background-color: #E14747;
+}
+
+.sec-4 div p {
+    padding-top: 10em;
+    color: white;
+    font-family: raleway;
+    font-size: 20px;
+}
 
 
 
