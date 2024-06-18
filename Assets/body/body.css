@@ -18,7 +18,7 @@
   position: relative;
   width: 100%;
   background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/4-arnold-schwarzenegger-artwork-taoteching-c4dart.jpg);
-  min-height: 500px; /* Adjust the minimum height as needed */
+  min-height: 600px; /* Adjust the minimum height as needed */
 }
 
 .overlay {
@@ -64,13 +64,12 @@
 }
 
 .sec-4 { 
-  background-color: white;
+  background-color: whitesmoke;
   min-height: 500px;  
 }
 
 .sec-4 p{
   padding-top: 10em;
-  background-color: white;
   font-family: raleway;
   font-size: large;
   text-align: center;

@@ -12,7 +12,7 @@
   /* Center the images horizontally */
   margin-top: 30px;
   margin: 0 auto; /* Center horizontally */
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .slideshow img {
@@ -28,9 +28,9 @@
 }
 
 .sec-1{
-  min-height: 600px; 
+  min-height: 400px; 
   text-align: center;
-  padding-top: 400px;
+  padding-top: 200px;
   font-family: raleway;
   font-size: 26px;
   background-position: center;
